@@ -7,6 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MicroRabbits.Domain.Core\MicroRabbits.Domain.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="MediatR" Version="11.0.0" />
     </ItemGroup>
 
